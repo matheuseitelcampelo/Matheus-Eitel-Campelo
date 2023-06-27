@@ -81,27 +81,3 @@ header h1{
 .whatsapp-button a:hover {
     background-color: #128c7e;
 }
-
-.curriculum-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-}
-
-.curriculum-button a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: "Arial", sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: background-color 0.3s ease;
-}
-
-.curriculum-button a:hover {
-    background-color: #666;
-}
