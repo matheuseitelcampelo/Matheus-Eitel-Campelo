@@ -1,0 +1,107 @@
+/* style.css */
+
+/* Estilizando o cabeçalho */
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0;
+}
+
+/* Estilizando a seção "Sobre mim" */
+.about {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.about h2{
+    color: #333;
+}
+
+/* Estilizando a seção "Projetos" */
+.project {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.project h2{
+    color: #333;
+}
+
+
+/* Estilizando a seção de contato */
+.contact{
+    background-color: #f5f5f5;
+    padding: 20px
+}
+
+.contact p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact a{
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #666;
+}
+
+.contact .social-media a{
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color o.3s ease;
+}
+
+.contact .social-media a:hover {
+    color: #666;
+}
+
+.whatsapp-button {
+    margin-top: 10px;
+}
+
+.whatsapp-button a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp-button a:hover {
+    background-color: #128c7e;
+}
+
+.curriculum-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.curriculum-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.curriculum-button a:hover {
+    background-color: #666;
+}
